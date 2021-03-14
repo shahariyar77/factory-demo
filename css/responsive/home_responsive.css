@@ -1,0 +1,177 @@
+
+/* (1920x1080) Full HD Display */
+
+@media  screen and (max-width: 1920px) {}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {}
+/*---------------- iPads (portrait and landscape) ---------------------- */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+  .header-top p {
+	font-size: 11px;
+	margin-bottom: 0;
+}
+span.space {
+	display: inline;
+	padding-left: 14px;
+}
+    .slide-text h2 {
+	font-size: 49px;
+}
+    .cta-area h2 {
+	font-size: 22px;
+}
+   a.box-btn.cta-btn {
+	padding: 13px 14px;
+}
+    .portfulio-hover h4 {
+	font-size: 13px;
+}
+    .feedback-bg {
+	margin-left: -15px;
+}
+    .banertext h5 {
+	font-size: 16px;
+}
+    .banertext p {
+	font-size: 12px;
+}
+    a.box-btn.baner-btn {
+	padding: 8px 10px;
+	font-size: 14px;
+}
+    .footer-area li {
+	font-size: 9px;
+	
+}
+    p.contact-info a {
+	font-size: 12px;
+}
+    .footer-area input[type="submit"] {
+	padding: 11px 0;
+}
+ 
+} 
+    
+
+/*------------------- tablate & mobile layout -------------------- */
+
+@media only screen and (max-device-width: 991px) {
+    .header-top-area {
+	text-align: center;
+}
+    .header-right-site {
+	text-align: center;
+}
+    .logo img {
+	width: auto;
+}
+    .single-service-item {
+	margin-bottom: 30px;
+}
+    .banertext h5 {
+	font-size: 16px;
+}
+    .feedback-bg {
+	margin-left: -15px;
+}
+.single-news-area {
+	margin-bottom: 40px;
+}
+  .featured-news-area {
+	margin-bottom: 20px;
+}
+    .footer-area h6 {
+	margin-bottom: 16px;
+	margin-top: 40px;
+}
+}
+/*================= 320  mobile lay out   =======================*/
+@media only screen and (max-device-width: 767px){
+    .main-manu{
+        display: none;
+    }
+    .single-slide-item {
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	background-color: gray;
+	display: table;
+	width: 100%;
+}
+.slide-text h2 {
+	font-size: 32px;
+}
+.cta-area h2 {
+	font-size: 21px;
+}
+a.box-btn.cta-btn {
+	margin-top: 15px;
+	display: block;
+	text-align: center;
+}
+.portfulio-hover h4 {
+	font-size: 13px;
+}
+.feedback-bg {
+	margin-left: -15px;
+}
+.banertext p {
+	font-size: 12px;
+}
+.last-footer p {
+	text-align: center;
+}
+    .header-top-area {
+	display: none;
+}
+    .slicknav_menu {
+	
+	background:none;
+	display: inline-block;
+	position: absolute;
+	z-index: 9;
+	right: 0;
+	top: -42px;
+	width: 100%;
+}
+    .slicknav_nav ul {
+	background: #fab702;
+}
+    li.search {
+	display: none;
+}
+    .slicknav_menu {
+	text-align: center;
+}
+    .slicknav_btn {
+	background-color: #fab702;
+}
+}
+
+
+/*------------------- iPads (portrait and landscape) -------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    a.box-btn.cta-btn {
+	display: inline-block;
+	
+}
+    .cta-area h2 {
+	font-size: 19px;
+	margin-top: 23px;
+}
+    .portfulio-hover h4 {
+	font-size: 8px;
+}
+    .banertext h5 {
+	font-size: 14px;
+}
+    a.box-btn.baner-btn {
+	padding: 10px 10px;
+}
+    a.box-btn.baner-btn {
+	margin-left: 13px;
+}
+    
+}
